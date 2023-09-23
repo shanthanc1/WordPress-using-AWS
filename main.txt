@@ -1,0 +1,7 @@
+Project Overview:
+I built a Three-Tier VPC in the AWS network to create a secure infrastructure for deploying the website.
+I created Private and Public Subnets, NAT gateways, Security Groups, and Route Tables to route traffic to the appropriate subnets.
+I also set up an RDS database and an EFS File System and then launched EC2 instances.
+To manage traffic effectively, I implemented an Application Load Balancer and an Auto Scaling group for the automatic launch of EC2 instances.
+Additionally, I successfully established SSH access to instances in the private subnets.
+After setting up the infrastructure, I installed WordPress and associated it with the domain www.shanchas.com, using Route 53.
